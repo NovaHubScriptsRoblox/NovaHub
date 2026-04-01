@@ -52,8 +52,8 @@ local function loadSystem()
     LoginFrame.Parent = Main
 
     local Input = Instance.new("TextBox")
-    Input.Size = UDim2.new(0, 260, 0, 40)
-    Input.Position = UDim2.new(0.5, -130, 0.2, 0)
+    Input.Size = UDim2.new(0, 260, 0, 35)
+    Input.Position = UDim2.new(0.5, -130, 0.1, 0)
     Input.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
     Input.PlaceholderText = "Enter Key..."
     Input.Text = ""
@@ -63,14 +63,25 @@ local function loadSystem()
     Instance.new("UICorner", Input)
 
     local Submit = Instance.new("TextButton")
-    Submit.Size = UDim2.new(0, 260, 0, 40)
-    Submit.Position = UDim2.new(0.5, -130, 0.55, 0)
+    Submit.Size = UDim2.new(0, 260, 0, 35)
+    Submit.Position = UDim2.new(0.5, -130, 0.4, 0)
     Submit.BackgroundColor3 = Color3.fromRGB(70, 130, 255)
     Submit.Text = "Verify"
     Submit.TextColor3 = Color3.fromRGB(255, 255, 255)
     Submit.Font = Enum.Font.GothamBold
     Submit.Parent = LoginFrame
     Instance.new("UICorner", Submit)
+
+    -- GET KEY BUTTON
+    local GetKey = Instance.new("TextButton")
+    GetKey.Size = UDim2.new(0, 260, 0, 35)
+    GetKey.Position = UDim2.new(0.5, -130, 0.7, 0)
+    GetKey.BackgroundColor3 = Color3.fromRGB(88, 101, 242) -- Discord Blurple
+    GetKey.Text = "Get Key (Discord)"
+    GetKey.TextColor3 = Color3.fromRGB(255, 255, 255)
+    GetKey.Font = Enum.Font.GothamBold
+    GetKey.Parent = LoginFrame
+    Instance.new("UICorner", GetKey)
 
     -- GAME SELECTION LOGIC
     local function showGameSelector()
@@ -138,6 +149,17 @@ local function loadSystem()
             Submit.Text = "Verify"
             Submit.BackgroundColor3 = Color3.fromRGB(70, 130, 255)
         end
+    end)
+
+    GetKey.MouseButton1Click:Connect(function()
+        if setclipboard then
+            setclipboard("https://discord.gg/P7rCJAW7wN")
+            GetKey.Text = "Link Copied!"
+        else
+            GetKey.Text = "Failed to Copy"
+        end
+        task.wait(1.5)
+        GetKey.Text = "Get Key (Discord)"
     end)
 end
 
