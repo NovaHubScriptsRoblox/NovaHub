@@ -9,7 +9,8 @@ local SCRIPT_URL = BASE_URL .. "/scripts/"
 
 -- ADD YOUR GAMES HERE
 local Games = {
-    ["Highway Legends"] = "HL.lua"
+    ["Highway Legends"] = "HL.lua",
+    ["Deathrun RNG"] = "DRRNG.lua"
 }
 
 local SavedKey = ""
