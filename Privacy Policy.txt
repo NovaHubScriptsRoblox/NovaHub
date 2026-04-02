@@ -1,0 +1,47 @@
+Effective Date: April 2, 2026
+
+At NovaHUB, we value your privacy. This policy explains what information we collect, how it is used, and how you can request its removal.
+
+1. Data We Collect
+NovaHUB only collects data necessary for its core functions. This includes:
+
+User IDs: To identify users for leveling, settings, or permissions.
+
+Server IDs: To store server-specific configurations and preferences.
+
+Command Usage: We may log which commands are used to help us improve the bot’s performance.
+
+Role/Channel IDs: If configured for moderation or auto-role features.
+
+2. How We Use Data
+The data collected is used strictly for:
+
+Providing and maintaining the Bot’s features.
+
+Ensuring server-specific settings (like prefix or log channels) are saved.
+
+Preventing abuse and ensuring the security of our services.
+
+3. Data Sharing
+We do not sell, trade, or rent your data to third parties. Data is only shared if:
+
+Required by law or to comply with a legal process.
+
+Necessary to protect the safety and rights of the NovaHUB developers and users.
+
+4. Third-Party Services
+NovaHUB interacts with the Discord API. Please refer to Discord’s Privacy Policy for information on how they handle your data. If the Bot interacts with Roblox-related APIs, we do not store your Roblox password or sensitive account credentials.
+
+5. Data Retention & Deletion
+Retention: We only store data as long as the Bot is present in your server or as long as you are an active user.
+
+Deletion: You can request that your data be deleted at any time. To do so, please join our support server (Code: P7rCJAW7wN) and contact an administrator.
+
+Automated Deletion: If the Bot is kicked from a server, server-specific data may be deleted from our database after a period of inactivity.
+
+6. Security
+We implement reasonable security measures to protect your data. However, no method of transmission over the internet is 100% secure. We cannot guarantee absolute security but will notify users of any significant data breaches via our support server.
+
+7. Contact Us
+If you have any questions regarding this Privacy Policy, please reach out via our Discord:
+Support Server: https://discord.gg/P7rCJAW7wN
