@@ -1,0 +1,46 @@
+Since you're setting this up for NovaHUB today, I’ve updated the template with your specific details. Since you mentioned you don't have a dedicated email for the bot yet, I’ve pointed users toward your Discord support server, which is standard practice for bot devs.
+
+Terms of Service: NovaHUB
+Effective Date: April 2, 2026
+
+Welcome to NovaHUB ("the Bot"). By adding NovaHUB to your server or interacting with its features, you agree to be bound by these Terms of Service.
+
+1. Acceptance of Terms
+By using NovaHUB, you certify that you are at least 13 years old and that you comply with Discord’s Terms of Service and Community Guidelines. Use of this bot is a privilege, not a right.
+
+2. Proper Usage
+You agree to use NovaHUB only for its intended purposes. You are strictly prohibited from:
+
+Using the Bot to bypass Discord’s API rate limits.
+
+Exploiting bugs to gain unfair advantages in bot features.
+
+Using the Bot to distribute content that violates international law.
+
+Attempting to "stress test" or DDoS the Bot’s infrastructure.
+
+3. Data & Privacy
+NovaHUB collects minimal data required for operation (such as User IDs, Server IDs, and configuration settings).
+
+Storage: Data is stored securely and is never sold to third parties.
+
+Deletion: You may request data deletion by leaving the Support Server (Invite Code: P7rCJAW7wN) and contacting an administrator.
+
+4. Limitation of Liability
+NovaHUB is provided on an "as is" basis. The developers are not responsible for:
+
+Potential data loss (e.g., leveling stats or configuration).
+
+Damage caused to a server by misuse of moderation commands by server staff.
+
+Temporary downtime or service interruptions.
+
+5. Termination
+We reserve the right to "Blacklist" users or servers from using NovaHUB if these terms are violated. This may happen without prior warning depending on the severity of the violation.
+
+6. Support and Contact
+If you have questions, concerns, or need to report a bug, please join our official support community:
+
+Discord Invite Code: P7rCJAW7wN
+
+Direct Join: discord.gg/P7rCJAW7wN
